@@ -145,7 +145,8 @@ const App = () => {
 
   useEffect(() => {
     checkIfWalletIsConnected();
-  }, [checkIfWalletIsConnected])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const renderMintUI = () => (
     <button onClick={askContractToMintNft} className="cta-button connect-wallet-button">
