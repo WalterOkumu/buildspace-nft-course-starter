@@ -8,7 +8,7 @@ import myEpicNft from './utils/MyEpicNFT.json'
 const TWITTER_HANDLE = 'OkumuOriaro';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = 'https://testnets.opensea.io/collection/okumus-nfts';
-const TOTAL_MINT_COUNT = 50;
+//const TOTAL_MINT_COUNT = 50;
 const CONTRACT_ADDRESS = process.env.REACT_APP_CONTRACT_ADDRESS;
 
 const App = () => {
