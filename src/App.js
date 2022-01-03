@@ -145,7 +145,7 @@ const App = () => {
 
   useEffect(() => {
     checkIfWalletIsConnected();
-  }, [])
+  }, [checkIfWalletIsConnected])
 
   const renderMintUI = () => (
     <button onClick={askContractToMintNft} className="cta-button connect-wallet-button">
